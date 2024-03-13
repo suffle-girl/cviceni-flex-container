@@ -1,4 +1,24 @@
 /*Tady piš svůj kód*/
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+}
 
 /*-------------*/
 *,
